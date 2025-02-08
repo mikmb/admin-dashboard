@@ -128,6 +128,13 @@ img {
   background-color: #fcb07e;
   border-radius: 7px 0 0 7px;
 }
+.project-interactive-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
 .announcements,
 .trending {
   display: flex;
