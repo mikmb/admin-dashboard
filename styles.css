@@ -75,8 +75,88 @@ img {
   flex-direction: column;
   z-index: 1;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
 }
+.dashboard-header-container {
+  margin-left: 250px;
+}
+.search-bar-acc-details-container {
+  display: flex;
+  justify-content: space-between;
 
+  gap: 20px;
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-bar {
+  background-color: #ebe9e9;
+  border: none;
+  border-radius: 20px;
+  width: 500px;
+  padding: 10px;
+}
+.account-details-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.bell-icon {
+  cursor: pointer;
+}
+.account-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.account-profile-name {
+  cursor: pointer;
+  font-weight: bold;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-bottom-profile-pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hi-there {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.profile-name-and-username {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project-control {
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  background-color: #3581b8;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transition-duration: 0.3s;
+  opacity: 0.8;
+}
 .dashboard-main {
   display: grid;
   margin-left: 250px;
